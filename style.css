@@ -114,7 +114,7 @@ width: 30%;
 height:80%;
 }
 
-.ch:hover{
+.ch:active{
 content: url(new3.jpg);
 width: 30%;
 margin-top: -150px;
