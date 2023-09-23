@@ -88,6 +88,39 @@ color:red;
     min-height: 40vh;
   }
   
+
+.animate{
+animation: changeImage 5s infinite; 
+}
+
+
+
+@keyframes changeImage { 
+  0% { opacity: 1; } 
+  25% { opacity: 0.5; } 
+  50% { opacity: 1; } 
+  75% { opacity: 0.5; } 
+  100% { opacity: 1; } 
+} 
+
+
+
+
+
+.ch{
+margin-top: -150px;
+margin-right:70px;
+width: 30%;
+height:80%;
+}
+
+.ch:hover{
+content: url(new3.jpg);
+width: 30%;
+margin-top: -150px;
+margin-right:70px;
+}
+
   section h2 {
     margin-bottom: 50px;
   }
@@ -148,6 +181,11 @@ color:red;
     font-weight: 900;
     padding-bottom: 10px 0px 20px 0px;
   }
+
+#back{
+width: 100%;
+height: 240px;
+}
   
   .about_title {
     font-size: 1.45em;
@@ -280,7 +318,7 @@ border-radius: 25px;
 #heading{
 Width:445px;
 height:104px;
-Top:177px;
+/* Top:77px; */
 /* Left:163px; */
 text-align:center;
 }
