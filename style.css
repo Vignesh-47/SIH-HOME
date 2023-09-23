@@ -10,6 +10,10 @@
 height:200px;
 } */
 
+.logo{
+width:fit-content;
+}
+
   header {
     text-align: center;
     background-color: white;
@@ -29,6 +33,13 @@ height:200px;
   /* } */
   
   /* Style the top navigation bar */
+
+#colo
+{
+color:red;
+/* background-color: red; */
+}
+
   nav {
     display: flex;
     background-color: #333;
@@ -242,21 +253,25 @@ Gap:20px;
 .myDivFlex
 {
 display:flex;
+   justify-content: space-between;
 }
 
 
 .up{
 margin-top: -120px;
+border-color: #fff;
 }
 
 
 .myDiv {
-   
-  border: 5px outset red;
-  background-color: lightblue;    
+
+  border: 5px outset white;
+  background-color: whitesmoke;
+/* padding-right: auto;     */
   display: grid;
-  width: 50%;
+  width: 30%;
 height: 243px;
+border-radius: 25px;
  
 
   /* justify-content: space-between; */
